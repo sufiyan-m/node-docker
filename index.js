@@ -69,7 +69,7 @@ mongoose.connect(mongoURL, {
 .catch((e) => console.log(e)); 
 
 app.get("/api/v1", (req,res)=> {
-    res.send("<h2>Hi There, How are ya :) !!!!!!! </h2>");
+    res.send("<h2>Hi There, How are ya :) </h2>");
     console.log("Yes it is working")
 });
 
